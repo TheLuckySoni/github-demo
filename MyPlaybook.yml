@@ -10,4 +10,4 @@
                                                 dest: /usr/
                                                 owner: '65534'
                                                 group: root
-                                                mode: '0644'
+                                                mode: u=rw,g=r,o=r
