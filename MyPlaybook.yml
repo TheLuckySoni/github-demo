@@ -8,6 +8,6 @@
                             copy:
                                                 src: /etc/lucky.txt
                                                 dest: /usr/
-                                                owner: root
+                                                owner: '65534'
                                                 group: root
                                                 mode: '0644'
