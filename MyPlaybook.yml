@@ -8,6 +8,6 @@
                             copy:
                                                 src: /home/lucky/Downloads/ansible-tower-setup-latest.tar.gz
                                                 dest: /home/lucky/Documents
-                                                owner: root
-                                                group: root
+                                                owner: lucky
+                                                group: lucky
                                                 mode: '0644'
