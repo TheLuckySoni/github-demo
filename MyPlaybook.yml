@@ -1,0 +1,13 @@
+---
+- name: Playbook to copy files
+  become: true
+  hosts: localhost
+  tasks:
+
+                          - name: Copy files with owner and permisions
+                            copy:
+                                                src: /home/lucky/Downloads/
+                                                dest: /home/lucky/Documents
+                                                owner: root
+                                                group: root
+                                                mode: '0644'
