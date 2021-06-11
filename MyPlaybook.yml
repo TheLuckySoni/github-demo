@@ -6,7 +6,7 @@
 
                           - name: Copy files with owner and permisions
                             copy:
-                                                src: /home/lucky/Downloads/
+                                                src: /home/lucky/Downloads/ansible-tower-setup-latest.tar.gz
                                                 dest: /home/lucky/Documents
                                                 owner: root
                                                 group: root
